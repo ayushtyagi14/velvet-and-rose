@@ -4,7 +4,7 @@ import { textContainer, textVariant2, slideIn, fadeIn } from "../../utils/motion
 
 const AboutUs = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <motion.div
         className="flex flex-col lg:flex-row items-center my-16 lg:w-[95%] w-[90%] mx-auto justify-between h-[70vh]"
         variants={slideIn("right", "spring", 0.5, 1)}
@@ -43,7 +43,7 @@ const AboutUs = () => {
           variants={slideIn("left", "tween", 0.5, 1)}
         />
       </motion.div>
-    </>
+    </div>
   );
 };
 
