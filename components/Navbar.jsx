@@ -19,15 +19,9 @@ const Navbar = () => {
         <div className="flex flex-row items-center lg:justify-end justify-start">
           <div className="cursor-pointer lg:hidden block">
             {!dropdown ? (
-              <img
-                src="https://img.icons8.com/ios-glyphs/26/000000/null/menu-rounded.png"
-                onClick={() => setDropdown(true)}
-              />
+              <img src="/menu.png" onClick={() => setDropdown(true)} />
             ) : (
-              <img
-                src="https://img.icons8.com/material-outlined/26/000000/null/multiply--v1.png"
-                onClick={() => setDropdown(false)}
-              />
+              <img src="/close.png" onClick={() => setDropdown(false)} />
             )}
           </div>
           <div
@@ -41,7 +35,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <Link href={"/"}>
+        <Link href={"/homepage"}>
           <div className="flex flex-row items-center justify-center">
             <img
               src="/logo2.png"
@@ -65,35 +59,38 @@ const Navbar = () => {
       </div>
 
       <div className="bg-[#7f0f1e] text-white text-[14px] text-center lg:flex hidden flex-row w-full justify-evenly uppercase py-1">
-        <Link href="/" className="hover:bg-[#6a0c18] p-2 transition-colors">
+        <Link
+          href="/about-us"
+          className="hover:bg-[#6a0c18] p-2 transition-colors"
+        >
           About Us
         </Link>
         <Link
-          href="/about"
+          href="/event-designing"
           className="hover:bg-[#6a0c18] py-2 px-4 transition-colors"
         >
           Event Designing
         </Link>
         <Link
-          href="/services"
+          href="/event-planning"
           className="hover:bg-[#6a0c18] py-2 px-4 transition-colors"
         >
           Event Planning
         </Link>
         <Link
-          href="/portfolio"
+          href="/floral"
           className="hover:bg-[#6a0c18] py-2 px-4 transition-colors"
         >
           Floral
         </Link>
         <Link
-          href="/blog"
+          href="/our-packages"
           className="hover:bg-[#6a0c18] py-2 px-4 transition-colors"
         >
           Our Packages
         </Link>
         <Link
-          href="/contact"
+          href="/contact-us"
           className="hover:bg-[#6a0c18] py-2 px-4 transition-colors"
         >
           Contact Us
@@ -112,19 +109,19 @@ const Navbar = () => {
             }}
           >
             <div className="h-max pb-5 flex flex-col md:px-10 px-5 text-white bg-[#7f0f1e]">
-              <Link href="/about" className="md:my-3 my-1">
+              <Link href="/about-us" className="md:my-3 my-1">
                 About Us
               </Link>
-              <Link href="/sessions" className="my-3">
+              <Link href="/event-desgining" className="my-3">
                 Event Designing
               </Link>
-              <Link href="/events" className="my-3">
+              <Link href="/event-planning" className="my-3">
                 Event Planning
               </Link>
-              <Link href="/instructors" className="my-3">
+              <Link href="/floral" className="my-3">
                 Floral
               </Link>
-              <Link href="/guru" className="my-3">
+              <Link href="/our-packages" className="my-3">
                 Our Packages
               </Link>
               <Link href="/contact-us" className="my-3">

@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
-import { slideIn, textVariant, textVariant2 } from "../../utils/motion"; // Assuming the motion.js file is in the correct path
+import { slideIn } from "../../utils/motion";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -53,23 +53,6 @@ const Hero = () => {
 
   const handleSlideChange = (swiper) => {
     setCurrentSlideIndex(swiper.realIndex);
-  };
-
-  const slideOutVariants = {
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.5,
-      },
-    },
-    hidden: {
-      opacity: 0,
-      y: 100,
-      transition: {
-        duration: 0.5,
-      },
-    },
   };
 
   return (

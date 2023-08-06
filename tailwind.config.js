@@ -10,6 +10,7 @@ module.exports = {
     fontFamily: {
       'inter': ["Inter"],
       'vibes': ["Great Vibes"],
+      'quicksand': ["Quicksand"],
     },
   },
   plugins: [],
