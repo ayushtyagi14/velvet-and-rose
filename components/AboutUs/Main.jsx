@@ -63,23 +63,23 @@ const Main = () => {
           >
             At Velvet & Rose, our mission is to create extraordinary events that
             leave a lasting impression. We believe that every event should be a
-            unique reflection of our clients' vision and personality. Our
+            unique reflection of our client&apos;s vision and personality. Our
             dedicated team works tirelessly to ensure that every detail is
             carefully considered, from the initial planning stages to the final
-            execution. Whether it's a lavish wedding, a corporate gala, or an
+            execution. Whether it&apos;s a lavish wedding, a corporate gala, or an
             intimate celebration, we bring creativity, passion, and precision to
             every project we undertake. Our commitment to excellence extends to
             our relationships with our clients and partners. We value open
             communication and collaboration, fostering strong connections to
-            understand and fulfill our clients' needs. With our years of
+            understand and fulfill our clients&apos; needs. With our years of
             experience in the industry, we continually explore innovative ideas
             and concepts to create events that are truly one-of-a-kind. We take
             pride in our reputation for delivering exceptional experiences that
-            exceed expectations. Our clients' satisfaction is at the heart of
+            exceed expectations. Our clients&apos; satisfaction is at the heart of
             everything we do, and we strive to make their dreams a reality. With
             Velvet & Rose as your event partner, you can rest assured that your
             special occasion will be flawlessly executed and filled with
-            cherished memories. Whether it's a grand affair or an intimate
+            cherished memories. Whether it&apos;s a grand affair or an intimate
             gathering, we approach every project with enthusiasm, creativity,
             and meticulous attention to detail. From conceptualization to
             execution, Velvet & Rose is dedicated to crafting events that are
