@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { textContainer, textVariant2, slideIn, fadeIn } from "../../utils/motion";
+import BlurImage from "../BlurImage";
 
 const AboutUs = () => {
   return (
@@ -39,7 +40,7 @@ const AboutUs = () => {
         <motion.img
           src="/about-us.jpg"
           alt="About Us"
-          className="lg:w-1/2 w-full mt-10 lg:mt-0 object-cover rounded-lg"
+          className="lg:w-1/2 w-full h-max mt-10 lg:mt-0 object-cover rounded-lg"
           variants={slideIn("left", "tween", 0.5, 1)}
         />
       </motion.div>

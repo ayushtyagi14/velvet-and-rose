@@ -55,7 +55,7 @@ const Book = ({ title, homepage }) => {
       slug: "some-event",
     },
     {
-      id: "8",
+      id: "9",
       title: "Some Event",
       imgUrl: "/floral.jpg",
       slug: "some-event",
@@ -68,7 +68,7 @@ const Book = ({ title, homepage }) => {
         <h1 className="md:text-[60px] text-[36px] text-center font-vibes">
           {title}
         </h1>
-        <div className="grid grid-cols-3 gap-4 w-[95%] mx-auto mt-10">
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-4 w-[95%] mx-auto mt-10">
           {eventsImages.map((item) => (
             <div
               key={item.id}
@@ -80,7 +80,7 @@ const Book = ({ title, homepage }) => {
                 <img
                   src={item.imgUrl}
                   alt={item.title}
-                  className="w-full h-auto"
+                  className="w-full h-max"
                 />
                 {!homepage && (
                   <h3 className="text-center md:text-[36px] font-vibes">

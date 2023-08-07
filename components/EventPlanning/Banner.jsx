@@ -4,7 +4,7 @@ import { fadeIn, slideIn } from "../../utils/motion";
 
 const Banner = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <div className="grid lg:grid-cols-2 grid-cols-1 w-[90%] mx-auto my-40 items-center gap-16">
         <motion.img
           src="/ep1.jpg"
@@ -44,7 +44,7 @@ const Banner = () => {
           </motion.p>
         </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -112,7 +112,7 @@ const Navbar = () => {
               <Link href="/about-us" className="md:my-3 my-1">
                 About Us
               </Link>
-              <Link href="/event-desgining" className="my-3">
+              <Link href="/event-designing" className="my-3">
                 Event Designing
               </Link>
               <Link href="/event-planning" className="my-3">

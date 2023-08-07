@@ -4,7 +4,7 @@ import { fadeIn, slideIn } from "../../utils/motion";
 
 const Hero = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-0 mt-20 mb-10 w-[90%] mx-auto items-center">
         <motion.img
           src="/event-planning-hero.jpg"
@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
         </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

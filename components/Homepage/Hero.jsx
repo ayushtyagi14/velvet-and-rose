@@ -5,6 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import { slideIn } from "../../utils/motion";
+import BlurImage from "../BlurImage";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -78,11 +79,9 @@ const Hero = () => {
         {heroImages.map((item, index) => (
           <SwiperSlide key={item.id}>
             <div className="lg:h-[98vh] md:h-[75vh] h-[55vh]">
-              <Image
-                src={item.imgUrl}
-                alt="Hero Banner"
-                fill
-                className="brightness-[70%] object-cover"
+              <BlurImage
+                image={item.imgUrl}
+                className={"brightness-[70%] object-cover"}
               />
             </div>
             {currentSlideIndex === index && (
