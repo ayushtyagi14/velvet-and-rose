@@ -8,7 +8,7 @@ export default function BlurImage({ image, className, title }) {
     return (
         <div className="aspect-w-auto aspect-h-auto w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-auto xl:aspect-h-auto">
             <Image
-                alt={title}
+                alt={title ? title : "Image"}
                 src={image}
                 fill
                 className={`
