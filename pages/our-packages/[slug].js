@@ -388,7 +388,7 @@ const Packages = () => {
     }
 
     return (
-        <>
+        <div className='overflow-hidden'>
             <Head>
                 <title>{selectedEvent.title} | Velvet and Rose</title>
                 <meta name="description" content={`This is the ${selectedEvent.title} Page of Velvet and Rose`} />
@@ -399,7 +399,7 @@ const Packages = () => {
             </h1>
             <div className="grid lg:grid-cols-2 grid-cols-1 items-center w-[90%] mx-auto mt-10 mb-20">
                 <motion.div
-                    className="rounded-xl w-[500px] mx-auto lg:mx-0"
+                    className="rounded-xl md:w-[500px] mx-auto lg:mx-0"
                     variants={fadeIn("up", "tween", 0.8, 0.5)}
                     initial="hidden"
                     whileInView="show"
@@ -426,7 +426,7 @@ const Packages = () => {
             <Gallery galleryData={selectedEvent.galleryData} title={"Gallery"} />
             <ContactUs />
             <Footer />
-        </>
+        </div>
     );
 };
 
