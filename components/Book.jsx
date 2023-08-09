@@ -80,7 +80,7 @@ const Book = ({ title, homepage }) => {
                 <img
                   src={item.imgUrl}
                   alt={item.title}
-                  className="w-full h-max"
+                  className="w-full"
                 />
                 {!homepage && (
                   <h3 className="text-center md:text-[36px] font-vibes">
