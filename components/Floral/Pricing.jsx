@@ -58,7 +58,7 @@ const Pricing = () => {
   return (
     <div className="my-32">
       <motion.h1
-        className="text-center lg:text-[60px] md:text-[50px] text-[38px] font-vibes"
+        className="text-center lg:text-[60px] md:text-[50px] text-[38px] font-Abramo"
         variants={slideIn("up", "tween", 0.8, 0.5)}
         initial="hidden"
         whileInView="show"

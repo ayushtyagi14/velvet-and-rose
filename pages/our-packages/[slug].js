@@ -337,7 +337,7 @@ const Packages = () => {
             ]
         },
         {
-            id: "8",
+            id: "9",
             title: "Some Event",
             heading: "Some Event",
             imgUrl: "/floral.jpg",
@@ -394,7 +394,7 @@ const Packages = () => {
                 <meta name="description" content={`This is the ${selectedEvent.title} Page of Velvet and Rose`} />
             </Head>
             <Navbar />
-            <h1 className="text-center font-vibes lg:text-[50px] md:text-[44px] text-[30px] mt-5">
+            <h1 className="text-center font-Abramo lg:text-[50px] md:text-[44px] text-[30px] mt-5">
                 {selectedEvent.heading}
             </h1>
             <div className="grid lg:grid-cols-2 grid-cols-1 items-center w-[90%] mx-auto mt-10 mb-20">

@@ -6,7 +6,7 @@ const GetInTouch = () => {
     <>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 items-center my-10 w-[90%] mx-auto">
         <div className="flex flex-col h-full items-start justify-evenly">
-          <h1 className="font-vibes lg:text-[60px] md:text-[50px] text-[36px]">Get In Touch</h1>
+          <h1 className="font-Abramo lg:text-[60px] md:text-[50px] text-[36px]">Get In Touch</h1>
           <p className="w-[80%] font-inter text-[18px]">
             We make it simple to get the pricing, availability, and answers you
             need to make the best decision for your special day. Reach out to us
@@ -15,7 +15,7 @@ const GetInTouch = () => {
             envisioned it.
           </p>
           <div>
-            <h1 className="font-vibes lg:text-[40px] md:text-[30px] text-[28px]">Contact Information</h1>
+            <h1 className="font-Abramo lg:text-[40px] md:text-[30px] text-[28px]">Contact Information</h1>
             <div className="flex flex-row items-center mb-2 cursor-pointer">
               <FaPhone className="mr-2" />
               <span>+1 (123) 456-7890</span>

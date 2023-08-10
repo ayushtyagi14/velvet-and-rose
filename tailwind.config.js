@@ -8,9 +8,10 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'inter': ["Inter"],
+      // 'inter': ["Inter"],
       'vibes': ["Great Vibes"],
       'quicksand': ["Quicksand"],
+      'Abramo': ["AbramoSerif"]
     },
   },
   corePlugins: {

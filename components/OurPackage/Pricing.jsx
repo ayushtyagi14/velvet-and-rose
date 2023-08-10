@@ -6,7 +6,7 @@ const Pricing = ({ price, features, title }) => {
   return (
     <div className="my-32">
       <motion.h1
-        className="text-center lg:text-[50px] md:text-[44px] text-[38px] font-vibes"
+        className="text-center lg:text-[50px] md:text-[44px] text-[38px] font-Abramo"
         variants={fadeIn("left", "tween", 0.5, 1)}
         initial="hidden"
         whileInView="show"

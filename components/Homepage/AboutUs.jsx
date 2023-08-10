@@ -17,12 +17,12 @@ const AboutUs = () => {
           variants={textContainer}
         >
           <motion.h1
-            className="lg:text-[50px] md:text-[40px] text-[36px] mb-4 font-vibes text-center lg:text-start"
+            className="lg:text-[50px] md:text-[40px] text-[36px] mb-4 font-Abramo text-center lg:text-start"
             variants={textVariant2}
           >
             Elevate Your Events With <br className="hidden lg:block" /> Velvet & Rose
           </motion.h1>
-          <motion.p className="mb-8 text-center lg:text-start" variants={textVariant2}>
+          <motion.p className="mb-8 text-center lg:text-start font-bold" variants={textVariant2}>
             Welcome to Velvet & Rose, where your dream events come to life. As a
             premier event management company, we take pride in crafting
             unforgettable experiences tailored to your unique vision. Our team

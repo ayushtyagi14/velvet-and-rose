@@ -34,7 +34,7 @@ const ContactUs = () => {
   return (
     <>
       <motion.h1
-        className="text-center font-vibes lg:text-[60px] md:text-[50px] text-[36px]"
+        className="text-center font-Abramo lg:text-[60px] md:text-[50px] text-[36px]"
         variants={textVariant(0.5)}
         initial="hidden"
         whileInView="show"

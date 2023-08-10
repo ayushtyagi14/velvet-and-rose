@@ -70,7 +70,7 @@ const AboutUs = () => {
             <div className="my-20 mb-32">
                 <div className="lg:w-[90%] w-[95%] mx-auto">
                     <motion.h2
-                        className="lg:text-[60px] md:text-[50px] text-[36px] font-vibes text-center mb-10"
+                        className="lg:text-[60px] md:text-[50px] text-[36px] font-Abramo text-center mb-10"
                         variants={slideIn("up", "spring", 0, 1)}
                         initial="hidden"
                         whileInView="show"

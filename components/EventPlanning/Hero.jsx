@@ -20,7 +20,7 @@ const Hero = () => {
           initial="hidden"
           whileInView="show"
         >
-          <h1 className="lg:text-[50px] md:text-[44px] text-[30px] text-center font-vibes leading-tight">
+          <h1 className="lg:text-[50px] md:text-[44px] text-[30px] text-center font-Abramo leading-tight">
             Elevate Your Events with Our Event Planning Services
           </h1>
           <p className="font-medium">

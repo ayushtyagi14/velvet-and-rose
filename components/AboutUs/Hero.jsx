@@ -28,7 +28,7 @@ const Hero = () => {
           exit="hidden"
           className="absolute top-[40%] left-[35%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
         >
-          <h1 className="lg:text-[90px] md:text-[70px] text-[40px] mt-20 font-vibes leading-none">
+          <h1 className="lg:text-[90px] md:text-[70px] text-[40px] mt-20 font-Abramo leading-none">
             About Us
           </h1>
         </motion.div>

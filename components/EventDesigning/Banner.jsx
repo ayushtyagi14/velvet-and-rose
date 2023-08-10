@@ -13,7 +13,7 @@ const Banner = () => {
           whileInView="show"
         >
           <motion.h1
-            className="lg:text-[50px] md:text-[44px] text-[30px] text-center leading-tight font-vibes"
+            className="lg:text-[50px] md:text-[44px] text-[30px] text-center leading-tight font-Abramo"
             variants={fadeIn("up", "tween", 0.8, 0.5)}
             initial="hidden"
             whileInView="show"

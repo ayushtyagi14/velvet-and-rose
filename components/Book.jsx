@@ -65,7 +65,7 @@ const Book = ({ title, homepage }) => {
   return (
     <>
       <div className="mb-20 mt-10">
-        <h1 className="md:text-[60px] text-[36px] text-center font-vibes">
+        <h1 className="md:text-[60px] text-[36px] text-center font-Abramo">
           {title}
         </h1>
         <div className="grid grid-cols-3 gap-4 w-[95%] mx-auto mt-10">
@@ -83,7 +83,7 @@ const Book = ({ title, homepage }) => {
                   className="w-full"
                 />
                 {!homepage && (
-                  <h3 className="text-center md:text-[36px] font-vibes">
+                  <h3 className="text-center md:text-[36px] font-Abramo">
                     {item.title}
                   </h3>
                 )}
@@ -91,7 +91,7 @@ const Book = ({ title, homepage }) => {
               {homepage && (
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#473f3f] opacity-0 transition-opacity duration-300 hover:opacity-[70%]">
                   <Link href={`/our-packages/${item.slug}`} key={item.id}>
-                    <h3 className="text-white text-center md:text-[36px] font-vibes">
+                    <h3 className="text-white text-center md:text-[36px] font-Abramo">
                       {item.title}
                     </h3>
                   </Link>

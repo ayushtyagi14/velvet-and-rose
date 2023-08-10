@@ -32,7 +32,7 @@ const Gallery = ({galleryData, title}) => {
   return (
     <>
       <div className="my-20">
-        <h1 className="text-center font-vibes lg:text-[60px] md:text-[50px] text-[36px] mb-2">
+        <h1 className="text-center font-Abramo lg:text-[60px] md:text-[50px] text-[36px] mb-2">
           {title}
         </h1>
         <Swiper
@@ -52,7 +52,7 @@ const Gallery = ({galleryData, title}) => {
           centeredSlides={false}
           className="mySwiper"
         >
-          {galleryData.map((item) => (
+          {galleryData?.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="w-[90%] mx-auto lg:h-screen h-max lg:pb-20 pb-10">
                 {item.type === "image" && (

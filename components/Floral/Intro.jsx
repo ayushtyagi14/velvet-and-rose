@@ -7,7 +7,7 @@ const Intro = () => {
     <>
       <div className="flex flex-col items-center my-20 w-[90%] mx-auto">
         <motion.h1
-          className="lg:text-[50px] md:text-[44px] text-[30px] font-vibes text-center"
+          className="lg:text-[50px] md:text-[44px] text-[30px] font-Abramo text-center"
           variants={fadeIn("up", "tween", 0.5, 1)}
           initial="hidden"
           whileInView="show"

@@ -4,11 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: "AbramoSerif";
+  src: url('webFonts/AbramoSerif/font.woff2') format('woff2'), url('webFonts/AbramoSerif/font.woff') format('woff');
+}
+@font-face {
+  font-family: "AbramoScript";
+  src: url('webFonts/AbramoScript/font.woff2') format('woff2'), url('webFonts/AbramoScript/font.woff') format('woff');
+} */
+
+@font-face {
+  font-family: 'AbramoSerif';
+  src: url('/font_1.woff') format('woff');
+}
+@font-face {
+  font-family: 'AbramoScript';
+  src: url('/font.woff') format('woff');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "AbramoScript", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
   background-image: url("/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
