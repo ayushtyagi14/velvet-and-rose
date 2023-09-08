@@ -4,15 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: "AbramoSerif";
-  src: url('webFonts/AbramoSerif/font.woff2') format('woff2'), url('webFonts/AbramoSerif/font.woff') format('woff');
-}
-@font-face {
-  font-family: "AbramoScript";
-  src: url('webFonts/AbramoScript/font.woff2') format('woff2'), url('webFonts/AbramoScript/font.woff') format('woff');
-} */
-
 @font-face {
   font-family: 'AbramoSerif';
   src: url('/font_1.woff') format('woff');

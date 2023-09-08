@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .top-container {
+        width: 90%;
+        height: 90vh;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
+        background-color: #fff1f1;
+        border-radius: 20px;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+          0 4px 6px -4px rgb(0 0 0 / 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .top-title {
+        font-size: 54px;
+        font-weight: bolder;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        justify-content: center;
+      }
+
+      .title {
+        font-size: 48px;
+        font-weight: normal;
+      }
+
+      .para {
+        font-size: 18px;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+      }
+
+      @media (max-width: 786px) {
+        .container {
+          display: grid;
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+          gap: 5px;
+        }
+
+        .top-title {
+            font-size: 30px;
+        }
+
+        .title {
+          font-size: 22px;
+          text-align: center;
+        }
+
+        .para {
+          font-size: 16px;
+        }
+
+        .buttons {
+          height: max-content;
+        }
+      }
+    </style>
+  </head>
+
+  <body style="font-family: 'DM Sans', sans-serif">
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <div class="top-container">
+      <h1 class="top-title">CONTACT US</h1>
+      <div class="container">
+        <div>
+          <h1 class="title">Book Your Consultation Today!</h1>
+          <p class="para">
+            Any questions? Not a problem! Meet with one of our event
+            coordinators to discuss the details of your event, desired services,
+            and pricing options. Our team of professionals will ensure that all
+            of your needs and concerns are catered-to at every step of the
+            process. So don't stress and book your consultation today, we'll
+            take care of the rest!
+          </p>
+        </div>
+        <div class="buttons">
+          <a
+            href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/velvetandrose/virtual-consultation'});return false;"
+            style="
+              background-color: #7f0f1e;
+              color: white;
+              padding: 10px 20px;
+              border-radius: 5px;
+              margin: 10px;
+              text-decoration: none;
+            "
+          >
+            Schedule 45-Minutes Virtual Consultation
+          </a>
+          <a
+            href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/velvetandrose/consultation'});return false;"
+            style="
+              background-color: #7f0f1e;
+              color: white;
+              padding: 10px 20px;
+              border-radius: 5px;
+              margin: 10px;
+              text-decoration: none;
+            "
+          >
+            Schedule 1 hour In-Person Consultation
+          </a>
+          <a
+            href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/velvetandrose/30min'});return false;"
+            style="
+              background-color: #7f0f1e;
+              color: white;
+              padding: 10px 20px;
+              border-radius: 5px;
+              margin: 10px;
+              text-decoration: none;
+            "
+          >
+            Schedule 30-Minutes Phone Consultation
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
