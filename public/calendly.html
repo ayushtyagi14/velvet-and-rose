@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        align-items: center;
+      }
+
+      @media (max-width: 786px) {
+        .container {
+          gap: 30px;
+        }
+      }
+    </style>
+  </head>
+
+  <body style="font-family: 'DM Sans', sans-serif">
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+
+    <div class="container">
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/velvetandrose/virtual-consultation"
+        style="min-width: 320px; height: 700px"
+      ></div>
+
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/velvetandrose/consultation"
+        style="min-width: 320px; height: 700px"
+      ></div>
+
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/velvetandrose/30min"
+        style="min-width: 320px; height: 700px"
+      ></div>
+    </div>
+  </body>
+</html>

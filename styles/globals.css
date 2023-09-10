@@ -5,12 +5,12 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'AbramoSerif';
-  src: url('/font_1.woff') format('woff');
+  font-family: "AbramoSerif";
+  src: url("/font_1.woff") format("woff");
 }
 @font-face {
-  font-family: 'AbramoScript';
-  src: url('/font.woff') format('woff');
+  font-family: "AbramoScript";
+  src: url("/font.woff") format("woff");
 }
 
 html,
@@ -40,4 +40,64 @@ body::-webkit-scrollbar {
 
 .scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+.btn {
+  /* padding: 0.1em 0.25em; */
+  width: 4em;
+  height: 3.6em;
+  background-color: #fff1f1;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.btn-logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 2.6em;
+  height: 2.3em;
+  background-color: #fff1f1;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-logo:hover {
+  transition: all 0.4s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 black;
+}
+
+.btn-logo:not(hover) {
+  transition: all 0.4s;
+}
+
+.btn-title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 10em;
+  height: 2.3em;
+  background-color: #fff1f1;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-title:hover {
+  transition: all 0.4s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 black;
+}
+
+.btn-title:not(hover) {
+  transition: all 0.4s;
 }
